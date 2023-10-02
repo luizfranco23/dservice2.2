@@ -571,7 +571,7 @@ nav {
   color: var(--white);
 }
 
-@media  (max-width < 900px) {
+@media  (width < 900px) {
 
   .section__containerMarcas {
     max-width: var(--max-width);
@@ -623,7 +623,7 @@ nav {
   }
 }
 
-@media (max-width < 600px) {
+@media (width < 600px) {
   .explore__header {
     flex-direction: column;
   }
