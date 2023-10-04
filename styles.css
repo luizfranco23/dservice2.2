@@ -24,12 +24,12 @@
 }
 
 .section__containerMarcas {
-  width: 1000px;
+  width: 100%;
   /* max-width: var(--max-width); */
-  padding: 5rem 1rem;
+  padding: 20px 30px;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 2fr);
   align-items: center; 
   justify-content: center;
 }
@@ -571,19 +571,19 @@ nav {
   color: var(--white);
 }
 
-@media (width < 500px) {
+@media (width < 810px) {
 
   .section__containerMarcas {
-    max-width: var(--max-width);
+    width: 100%;
+    /* max-width: var(--max-width); */
     margin: auto;
-    padding: 6rem 1rem;
+    padding: 4rem;
     display: grid;
     align-items: center;
     justify-content: center;
     gap: 2px;
-    grid-template-columns: repeat(3, 5fr);  
+    grid-template-columns: repeat(3, 4fr);  
   }
-
 
   .nav__links {
     display: none;
@@ -840,14 +840,13 @@ nav {
 display: flex;
 align-items: center;
 justify-content: center;
-width: 115px;
-height: 115px;
+width: 110px;
+height: 110px;
 border: 4px solid var(--secondary-color);
 background-color: #fff;
 border-radius: 50%;
-transition: 1s;
 }
 
 .marcas img{
-  width: 70px;
+  width: 60px;
 }
