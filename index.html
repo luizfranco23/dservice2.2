@@ -24,7 +24,7 @@
         <li class="link"><a href="#" onclick="scrollToSection('conheca-nossos-produtos')">Produtos</a></li>
         <li class="link"><a href="#" onclick="scrollToSection('servicos_man')">Serviços</a></li>
         <li class="link"><a href="#" onclick="scrollToSection('parc')">Parceiros</a></li>
-        <li class="link"><a href="#">Contatos</a></li>
+        <li class="link"><a href="#" onclick="scrollToSection('contact')">Contatos</a></li>
       </ul>
 
 
@@ -43,7 +43,9 @@
           seguida, ofereceremos um desconto ou crédito na compra de um novo
           equipamento.
         </p>
-        <button class="btn">Faça seu orçamento</button>
+        <button class="btn">
+          <a style="list-style: none; color: #fff" href="https://api.whatsapp.com/send?phone=5527995099955">Faça seu orçamento</a>
+        </button>
       </div>
       <div class="header__image">
         <!-- <img src="assets/header.png" alt="header" /> -->
@@ -128,24 +130,25 @@
         <img src="assets/join.jpg" alt="Join" />
         <div class="join__grid">
           <div class="join__card">
-            <span><i class="ri-whatsapp-fill"></i></span>
+            <span><i class="ri-shield-fill"></i></span>
             <div class="join__card__content">
-              <h4>WhatsApp</h4>
-              <p>Unlock your potential with our expert Personal Trainers.</p>
+              <h4>Integridade</h4>
+              <p>Nossa empresa é construída sobre os pilares da integridade e transparência.</p>
             </div>
           </div>
           <div class="join__card">
-            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-tools-fill"></i></span>
             <div class="join__card__content">
-              <h4>Instagram</h4>
-              <p>Elevate your fitness with practice sessions.</p>
+              <h4>Qualidade
+              </h4>
+              <p>Buscamos incansavelmente a excelência em cada detalhe.</p>
             </div>
           </div>
           <div class="join__card">
-            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-trophy-fill"></i></span>
             <div class="join__card__content">
-              <h4>Facebook</h4>
-              <p>Supportive management, for your fitness success.</p>
+              <h4>Excelência</h4>
+              <p>Na Dservice, a busca pela excelência é uma jornada sem fim.</p>
             </div>
           </div>
         </div>
@@ -204,45 +207,33 @@
 
 
 
-    <footer class="section__container footer__container">
+    <footer class="footer__container" id="contact">
       <span class="bg__blur"></span>
       <span class="bg__blur footer__blur"></span>
       <div class="footer__col">
         <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
-        <p>
-          Take the first step towards a healthier, stronger you with our
-          unbeatable pricing plans. Let's sweat, achieve, and conquer together!
-        </p>
+        <div class="location_footer">
+          <a href="#">
+            <i>
+              <img src="./assets/location .svg" alt="Localização">
+            </i>
+          </a>
+          <p>
+            R. Maria Camata, 315 - Cristóvão Colombo, Vila Velha - ES, 29106-555
+           </p>
+        </div>
+        
         <div class="footer__socials">
-          <a href="#"><i class="ri-facebook-fill"></i></a>
-          <a href="#"><i class="ri-instagram-line"></i></a>
-          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.facebook.com/gabriel.delgado.9028?mibextid=LQQJ4d"><i class="ri-facebook-fill"></i></a>
+          <a href="https://instagram.com/dservicemanu?igshid=MzRlODBiNWFlZA=="><i class="ri-instagram-line"></i></a>
+          <a href="mailto:dservice.odonto@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5527995099955"><i class="ri-whatsapp-fill"></i></a>
         </div>
       </div>
-      <div class="footer__col">
-        <h4>Company</h4>
-        <a href="#">Business</a>
-        <a href="#">Franchise</a>
-        <a href="#">Partnership</a>
-        <a href="#">Network</a>
-      </div>
-      <div class="footer__col">
-        <h4>About Us</h4>
-        <a href="#">Blogs</a>
-        <a href="#">Security</a>
-        <a href="#">Careers</a>
-      </div>
-      <div class="footer__col">
-        <h4>Contact</h4>
-        <a href="#">Contact Us</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">BMI Calculator</a>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Coders Form. All rights reserved.
       </div>
     </footer>
-    <div class="footer__bar">
-      Copyright © 2023 Web Design Coders Form. All rights reserved.
-    </div>
   </body>
 
   <script>
