@@ -648,6 +648,7 @@ width: 100%;
 
 @media (width < 450px) {
 
+
   .location_footer{
     display: flex;
     text-align: center;
